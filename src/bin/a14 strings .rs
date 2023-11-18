@@ -1,4 +1,3 @@
-
 // Topic: Strings
 //
 // Requirements:
