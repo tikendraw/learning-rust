@@ -61,10 +61,10 @@ fn main() {
 
     // * Iterate through the vector using a for..in loop
     for person in &people {
+        // * Use an if expression to determine which person's info should be printed
         if person.age <= 10{
+            // * The name and colors should be printed using a function
             person.print_all();
         }
     }
-// * Use an if expression to determine which person's info should be printed
-// * The name and colors should be printed using a function
 }
