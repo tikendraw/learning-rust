@@ -20,8 +20,8 @@ fn main() {
     ];
     for student in students {
         match student.locker{
-            Some(num) => println!("Name: {:?}, Locker: {:?}", student.name, num),
-            None => println!("Name: {:?}, Locker: Locker not assigned", student.name)
+            Some(num) => println!("Name: {:?}\nLocker: {:?}", student.name, num),
+            None => println!("Name: {:?}\nLocker: Locker not assigned", student.name)
         }
     }
 }
